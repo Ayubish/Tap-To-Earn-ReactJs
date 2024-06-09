@@ -1,0 +1,44 @@
+@font-face {
+  font-family: jost;
+  src: url(../jost.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'jost', Helvetica, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+
+.floating-counter {
+  transition: all ease;
+  animation: float 1s ease-in-out;
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.left-anime {
+  animation: left 2s ease-in-out;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+@keyframes left {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+}
