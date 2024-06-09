@@ -11,7 +11,7 @@ const App = () => {
   let btnStyle = "bg-fuchsia-600 rounded-md text-white p-3";
   return (
     <>
-      <main className="w-screen p-8 container h-dvh bg-[#0a0d10] text-white overflow-scroll">
+      <main className="lg:hidden w-screen p-8 container h-dvh bg-[#0a0d10] text-white overflow-scroll">
         <div className="flex gap-2 w-[80%] absolute bottom-10">
           <Link to="/ref">
             <button className={btnStyle}>
@@ -48,6 +48,9 @@ const App = () => {
           <Route path="/stats" element={<Stats />}></Route>
         </Routes>
       </main>
+      <div className="hidden lg:flex w-screen h-dvh justify-center items-center font-bold bg-[#0a0d10] text-white">
+        <h2 className="text-5xl">Better to use Mobile, 'Cause it Rocks!</h2>
+      </div>
     </>
   );
 };
