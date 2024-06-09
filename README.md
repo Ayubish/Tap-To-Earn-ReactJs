@@ -1,4 +1,5 @@
-# fb-lite-clone
- Facebook lite clone with React and TailwindCSS.
+# A tap-to-earn project as a telegram mini-app using React
+
 # Live demo:
-https://ayublite.netlify.app/
+
+https://trocoin.netlify.app/
