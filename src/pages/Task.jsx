@@ -5,7 +5,7 @@ const Task = () => {
     "flex items-center gap-3 p-3 border border-slate-400 rounded-lg";
   return (
     <>
-      <div className="grid gap-3">
+      <div className="grid gap-3 h-[90%] overflow-scroll no-scrollbar">
         <h2>Complete Tasks and Get Reward</h2>
         <div className={taskStyle}>
           <i className="fa fa-home" aria-hidden="true"></i>
