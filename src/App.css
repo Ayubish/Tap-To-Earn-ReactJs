@@ -42,3 +42,14 @@ body {
     opacity: 0;
   }
 }
+.info-alert {
+  animation: slide 300ms ease-in-out;
+}
+@keyframes slide {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
