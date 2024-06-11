@@ -3,12 +3,12 @@ const TaskPanel = ({ heading, children }) => {
     <>
       <div className="flex items-center justify-between p-4 mt-5 border border-slate-400 rounded-lg">
         <div className="flex items-center gap-3">
-          <i className="fa fa-home text-2xl"></i>
+          <p className="text-2xl">🗓</p>
           <div>
             <p>
               {heading}
               <br />
-              🪙{children}
+              🪙 {children}
             </p>
           </div>
         </div>
