@@ -8,7 +8,7 @@ const TaskPanel = ({ heading, children }) => {
             <p>
               {heading}
               <br />
-              {children}
+              🪙{children}
             </p>
           </div>
         </div>
